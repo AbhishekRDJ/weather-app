@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container" >
+        <input type="text" value="" placeholder="Enter City Name">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        
+        <div class="temp">
+            <!-- <img src="sun.jpg" alt="" id="temp_img"> -->
+            <i class="fa-solid fa-sun"></i>
+            <p id="temperature">7°C</p>
+            <h2 id="city"> Aurangabad</h2>
+
+        </div>
+        <div class="detail">
+            <div class="col">
+                <img src="humidity.jpg" alt="" id="humidity_img">
+                <p id="humidity"></p>
+                <p id="humidity_val">68%</p>
+                <h2>Humidity</h2>
+
+            </div>
+            <div class="col">
+                <img src="wind.jpg" alt="" id="wind_img">
+                <p id="Wind_speed">18Km/h</p>
+                <p id="wind"></p>
+                <h2>Wind Speed</h2>
+
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
